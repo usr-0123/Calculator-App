@@ -1,0 +1,47 @@
+.header {
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+
+}
+.calc {
+    margin-top: 25px;
+}
+.toggle-container-themes {
+margin-right: 20px;
+text-transform: uppercase;
+font-size: 15px;
+font-weight: 700 ;
+}
+.toggle-buttons-container {
+    /* border:1px solid; */
+    background-color: hsl(223, 31%, 20%);
+    padding: 2px;
+    border-radius: 30px;
+}
+.toggle-container{
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-bottom: 15px;
+
+}
+.dark {
+    background-color: red;
+}
+
+.radio-button {
+    color: red;
+    /* background-color: red; */
+    /* border: 2px solid; */
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -15px;
+    font-size:14px ;
+    font-weight: normal;
+}

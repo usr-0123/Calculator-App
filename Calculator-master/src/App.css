@@ -1,0 +1,80 @@
+@import url(https://fonts.google.com/specimen/League+Spartan);
+
+#root {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+
+  /* font family */
+font-family: League Spartan;
+--size-text:700;
+--size-numbers:32px;
+
+
+/* THEME 1 */
+        /* BACKGROUNDS */
+--blue-main-background:hsl(222, 26%, 31%);
+--blue-toggle-background:hsl(223, 31%, 20%);
+--blue-keypad-background:hsl(223, 31%, 20%);
+--blue-screen-background: hsl(224, 36%, 15%);
+         /* KEYS */
+--blue-key-background:hsl(6, 63%, 50%);
+--blue-key-shadow: hsl(224, 28%, 35%);
+--Red-key-background:hsl(6, 63%, 50%);
+--red-key-toggle: hsl(6, 63%, 50%);
+--Light-grayish-orange-key-background:hsl(30, 25%, 89%);
+--Grayish-orange-key-shadow:hsl(28, 16%, 65%);
+          /* TEXT */
+--Very-dark-grayish-blue: hsl(221, 14%, 31%);
+--White: hsl(0, 0%, 100%);
+
+  /* THEME 2 */
+          /* BACKGROUNDS */
+--Light-gray-main-background: hsl(0, 0%, 90%);
+--Grayish-red-toggle-background: hsl(0, 5%, 81%);
+--Grayish-red-keypad-background: hsl(0, 5%, 81%);
+--Very-light-gray-screen-background: hsl(0, 0%, 93%);
+           /* KEYS */
+--Dark-moderate-cyan-key-background: hsl(185, 42%, 37%);
+--Very-dark-cyan-key-shadow: hsl(185, 58%, 25%);
+--Orange-key-background-toggle: hsl(25, 98%, 40%);
+--Dark-orange-key-shadow: hsl(25, 99%, 27%);
+--Light-grayish-yellow-key-background: hsl(45, 7%, 89%);
+--Dark-grayish-orange-key-shadow: hsl(35, 11%, 61%);
+             /* TEXT        */
+--Very-dark-grayish-yellow: hsl(60, 10%, 19%);
+--White-text: hsl(0, 0%, 100%);
+
+     /* THEME 3 */
+           /* BACKGROUNDS */
+--Very-dark-violet-main-background: hsl(268, 75%, 9%);
+--Very-dark-violet-toggle-background-keypad-background-screen-background: hsl(268, 71%, 12%);
+            /* KEYS */
+--Dark-violet-key-background: hsl(281, 89%, 26%);
+--Vivid-magenta-key-shadow: hsl(285, 91%, 52%);
+--Pure-cyan-key-background-toggle: hsl(176, 100%, 44%);
+--Soft-cyan-key-shadow: hsl(177, 92%, 70%);
+--Very-dark-violet-key-background: hsl(268, 47%, 21%);
+--Dark-magenta-key-shadow: hsl(290, 70%, 36%);
+             /* TEXT */
+--Light-yellow: hsl(52, 100%, 62%);
+--Very-dark-blue: hsl(198, 20%, 13%);
+--White-text: hsl(0, 0%, 100%);
+            
+}
+body {
+ background-color:hsl(222, 26%, 31%) ;
+ height: 100vh;
+ width: 100vw;
+
+}
+.calculator-app {
+  width: 450px;
+  /* border: 2px solid; */
+  margin: 50px auto;
+}
+
+
+
+
+
